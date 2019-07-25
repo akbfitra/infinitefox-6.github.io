@@ -1,42 +1,100 @@
 <html>
-
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>CafeSHop</title>
+    <link rel="icon" href="./img/_cafe-512.png" type="icon">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <!-------menu header--------------------------->
-        <img id="logo" src="sample-logo.png" width="100px" />
-        <nav>
-            <ul>
-                <a href="#">
-                    <li>Home</li>
-                </a>
-                <a href="#">
-                    <li>Menu</li>
-                </a>
-                <a href="#">
-                    <li>Reservation</li>
-                </a>
-                <a href="#">
-                    <li>Galery</li>
-                </a>
-            </ul>
-        </nav>
+    <!-- HEADER -->
+    <header id="top">
+        <ul class="divs">
+            <li class="list logoCafe"> <a href="#" title="you are now in home!"><img src="./img/_cafe-512.png"
+                        class="icon1" onclick="alert('you are in home!')"></a></li>
+            <li class="list1 list1D"><a href="" class="colorA">Home</a></li>
+            <li class="list1"><a href="#menu" class="colorA">Menu</a></li>
+            <li class="list1"><a href="#member" class="colorA">Member</a></li>
+            <li class="list1"><a href="#about" class="colorA">About</a></li>
+        </ul>
     </header>
-    <section>
-        <!--------------section 1 ------------------->
-
+    <!-- CONTENT -->
+    <div class="homeContent">
+            <div class="animasi-teks">
+                <p>Hello, Welcome!</p>
+            </div>
+            <h1>Coffee Store</h1>
+            <img src="./img/_cafe-512.png" alt="">
+            <h3 class="since">-since 2009-</h3>
+            <h3>"I will start working when my coffee does"</h3>
+            <div class="promo">
+                <p>Get EXTRA 10% OFF your first order</p>
+                <p>Free delivery on your first order..</p>
+            </div>
+            <div class="open">
+                <p>Hours:</p>
+                <p>Mon-Fri: 8am - 9pm</p>
+                <p>Sat-SUN: 10am - 12pm</p>
+                <p>Sultan Iskandar Muda No.7, RT.5/RW.9, Kebayoran Lama Selatan,Jakarta 12240</p>
+            </div>
+    </div>
+    <p class="menu12">Menu</p>
+    <div class="menuContent" id="menu">
+        <div class="coffee">
+            <div class="textCoffee">
+                COFFEE
+            </div>
+        </div>
+        <div class="brew">
+            <div class="textCoffee">
+                BREW
+            </div>
+        </div>
+        <div class="non-coffee">
+            <div class="textCoffee">
+                NON-COFFEE
+            </div>
+        </div>
+        <div class="milkBased">
+            <div class="textCoffee">
+                MILK BASED
+            </div>
+        </div>
+        <div class="tea">
+            <div class="textCoffee">
+                TEA
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div class="about">
+    <section id="about">
+        <h3>
+            Coffee Shop
+        </h3>
+        <p>Our café opened in South Jakarta in August 2018. Located in the Big building, both the building and the cafe space itself were designed by renowned local architects.</p>
+        <p>The cafe is open to the lobby, features a marble bar, gorgeous green tile, and plenty of seating both in the café and in the comfortable lobby. Drink a coffee out of Japanese porcelain while sitting in the generous leather chairs and listening
+            to the playlist curated by local radio station.</p>
     </section>
     <section>
-        <!--------------section 2-------------------->
+        <h4>Location</h4>
+        <p>Sultan Iskandar Muda No.7, RT.5/RW.9, Kebayoran Lama Selatan,Jakarta 12240</p>
+        <p>021 647890</p>
 
+        <h4>Hours</h4>
+        <p>Mon-Fri: 8am - 9pm</p>
+        <p>Sat-SUN: 10am - 12pm</p>
     </section>
+    <section>
+        <h4>Contact Us For: </h4>
+        <p>Catering enquiries only</p>
+        <p>Noni @ 0433 181 463</p>
+        <p>Function enquiries only</p>
+        <p>Noni @ 0433 181 463</p>
+    </section>
+    </div>
 </body>
-
 <footer>
     <h6>Copyright © Hacktiv8-Infinite Fox • All rights reserved</h6>
 </footer>
-
+</body>
 </html>

@@ -1,5 +1,223 @@
-header {}
+a {
+    text-decoration: none;
+}
 
-body {}
+body {
+    padding: 0;
+    margin: 0;
+}
 
-footer {}
+/* Header */
+.divs{
+    list-style-type: none;
+    float: left;
+}
+
+#top {
+    height: 50px;
+    background-color: rgba(19, 19, 19, 0.911);
+    line-height: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 35%;
+}
+
+.logoCafe{
+    float: left;
+    margin-top: -13px;
+    background-color: beige;
+    width: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.icon1 {
+    height: 30px;
+}
+
+.list1{
+    float: left;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.list1{
+    float: left;
+    padding: 10px 30px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.colorA{
+    color: rgba(236, 236, 218, 0.911);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+/* konten */
+.bgbg{
+    height: 100%;
+    width: 100%;
+}
+
+.menuContent {
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.coffee {
+    float: left;
+    background-image: url("/img/img_coffe/coffe.jpg");
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-size: 300px;
+    background-position-y: -50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.39);
+    cursor: pointer;
+} .coffee:hover {
+    color: azure;
+    opacity: 0.8;
+}
+.textcoffee{
+    margin-top: 100px;
+}
+
+.brew {
+    background-image: url("/img/img_brew/manual_brew.jpg");
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-size: 500px;
+    cursor: pointer;
+    background-position-x: -190px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.568);
+}   .brew:hover {
+    color: azure;
+    opacity: 0.8;
+}
+
+.non-coffee {
+    background-image: url("/img/img_frape/latte-frape.jpg");
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-size: 500px;
+    cursor: pointer;
+    background-position-x: -150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.568);
+}   .non-coffee:hover {
+    color: azure;
+    opacity: 0.8;
+}
+
+.milkBased {
+    background-image: url("/img/img_milkTea/milk-tea.jpg");
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-size: 500px;
+    cursor: pointer;
+    background-position-x: -150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.568);
+}   .milkBased:hover {
+    color: azure;
+    opacity: 0.8;
+}
+
+.tea {
+    background-image: url("/img/img_tea/tea.jpg");
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px 10px;
+    background-size: 600px;
+    cursor: pointer;
+    background-position-x: -130px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.568);
+}   .tea:hover {
+    color: azure;
+    opacity: 0.8;
+}
+
+
+
+.homeContent{
+    background-image: url('/img/homeBG.jpg');
+    height: 70%;
+    padding: 150px;
+    text-align: center;
+    color: white;
+    background-position-y: 30%;
+    background-position-x: 3%;
+}
+
+.animasi-teks {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.homecontent h1 {
+    font-size: 90px;
+    margin-top: -50px;
+}
+.homecontent h3 {
+    font-size: 30px;
+    padding-top: 0;
+}
+.homecontent img{
+    height: 300px;
+    margin-top: -80px;
+}
+.since{
+    margin-top: -7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu12{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding-left: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+/* About */
+.about {
+    background-color: rgb(15, 15, 15);
+    margin-top: 300px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0px;  
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
