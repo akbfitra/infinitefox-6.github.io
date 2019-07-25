@@ -1,3 +1,9 @@
+/* POINTER */
+html {
+    scroll-behavior: smooth;
+}
+
+/* global */
 a {
     text-decoration: none;
 }
@@ -54,20 +60,34 @@ body {
 
 }
 
-/* konten */
-.bgbg{
-    height: 100%;
-    width: 100%;
+.colorB{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.623);
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid rgba(255, 0, 0, 0.671);
+    transition: 0.8s;
+} .colorB:hover{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.671);
 }
 
+/* konten */
+.textCoffee{
+    padding: 40% 0px;
+}
+.textCoffee1{
+    padding: 30% 0px;
+}
 .menuContent {
     padding: 10px;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .coffee {
     float: left;
-    background-image: url("/img/img_coffe/coffe.jpg");
+    background-image: url("./img/img_coffe/coffe.jpg");
     height: 250px;
     width: 250px;
     margin: 10px;
@@ -84,12 +104,9 @@ body {
     color: azure;
     opacity: 0.8;
 }
-.textcoffee{
-    margin-top: 100px;
-}
 
 .brew {
-    background-image: url("/img/img_brew/manual_brew.jpg");
+    background-image: url("./img/img_brew/manual_brew.jpg");
     float: left;
     height: 250px;
     width: 250px;
@@ -108,28 +125,8 @@ body {
     opacity: 0.8;
 }
 
-.non-coffee {
-    background-image: url("/img/img_frape/latte-frape.jpg");
-    float: left;
-    height: 250px;
-    width: 250px;
-    margin: 10px;
-    padding: 10px 10px;
-    background-size: 500px;
-    cursor: pointer;
-    background-position-x: -150px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.568);
-}   .non-coffee:hover {
-    color: azure;
-    opacity: 0.8;
-}
-
 .milkBased {
-    background-image: url("/img/img_milkTea/milk-tea.jpg");
+    background-image: url("./img/img_milkTea/milk-tea.jpg");
     float: left;
     height: 250px;
     width: 250px;
@@ -149,7 +146,7 @@ body {
 }
 
 .tea {
-    background-image: url("/img/img_tea/tea.jpg");
+    background-image: url("./img/img_tea/tea.jpg");
     float: left;
     height: 250px;
     width: 250px;
@@ -168,15 +165,34 @@ body {
     opacity: 0.8;
 }
 
-
+.home-text {
+    background-color: #fde2e28f;
+    padding-bottom: 30px;
+    padding-top: 1px;
+    border-radius: 40px;
+}
+.home-text{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home-test1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.promo {
+    font-weight: bold;
+}
+.open{
+    padding-top: 20px;
+    font-weight: bold;
+}
 
 .homeContent{
-    background-image: url('/img/homeBG.jpg');
-    height: 70%;
-    padding: 150px;
+    background-image: url("./img/homeBG.jpg");
     text-align: center;
     color: white;
-    background-position-y: 30%;
+    padding: 7%;
+    background-position-y: 50%;
     background-position-x: 3%;
 }
 
@@ -204,20 +220,54 @@ body {
 .menu12{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    padding-left: 40px;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
+
 /* About */
 .about {
     background-color: rgb(15, 15, 15);
-    margin-top: 300px;
+    display: inline-block;
     color: aliceblue;
     text-align: center;
-    padding: 10px 0px;  
+    width: 100%;
 }
-
+#about{
+    font-size: 20px;
+}
+#about h3 {
+    font-size: 100px;
+    margin-top: 20px;
+}
+.about1 {
+    margin-top: -40px;
+}
+.about2 h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: coral;
+}
+.about2 p{
+    font-size: 20px;
+}
+.about3 {
+    margin-top: -30px;
+}
+.about4 {
+    margin-top: -30px;
+}
+.about5 {
+    margin-top: 50px;
+    font-size: 30px;
+    color: coral;
+}
+.about6 p{
+    font-size: 20px;
+}
 /* footer */
 footer{
     text-align: center;
+    font-size: 25px;
 }

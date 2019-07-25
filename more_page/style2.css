@@ -1,0 +1,154 @@
+/* POINTER */
+html {
+    scroll-behavior: smooth;
+}
+
+/* global */
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.divs{
+    list-style-type: none;
+}
+
+#top {
+    height: 50px;
+    background-color: rgba(19, 19, 19, 0.911);
+    line-height: 0;
+    position: fixed;
+    width: 100%;
+    padding: 0px 45%;
+}
+
+.logoCafe{
+    float: left;
+    margin-top: -13px;
+    background-color: beige;
+    width: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.icon1 {
+    height: 30px;
+}
+
+.list1{
+    float: left;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.list1{
+    float: left;
+    padding: 10px 30px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.colorA{
+    color: rgba(236, 236, 218, 0.911);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+
+}
+
+/* kONTEN */
+.coffeeBg{
+    background-image: url("../img/img_coffe/coffe.jpg");
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-size: 100%;
+    background-position-y: -800px; 
+    padding: 20px 80px;
+}
+.brewBg{
+    background-image: url("../img/img_brew/manual_brew.jpg");
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-size: 100%; 
+    padding: 20px 80px;
+}
+.milkBg{
+    background-image: url("../img/img_frape/latte-frape.jpg");
+    text-align: left;
+    color: rgb(236, 236, 236);
+    background-size: 100%;
+    background-position-y: -100px;
+    padding: 20px 80px;
+}
+.teaBg{
+    background-image: url("../img/img_tea/tea.jpg");
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-size: 100%;
+    background-position-y: -100px;
+    padding: 20px 80px;
+}
+
+.cf1{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.cf2{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+li {
+    font-size: 30px;
+}
+ul p {
+    background-color: rgba(255, 255, 255, 0.425);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.milkBg li{
+    color: rgb(255, 255, 255);
+}
+.milkBg ul p {
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* profil */
+.center{
+    background-image: url('../img/homeBG.jpg');
+    padding: 5% 10%;
+    display: inline-block;
+    width: 100%;
+}
+.profil1{
+    border-radius: 50%;
+    height: 25%;
+    padding: 10px 30px;
+}
+.satu{
+    padding-left: 10%;
+}
+.center li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+.center p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-size: 25px;
+}
